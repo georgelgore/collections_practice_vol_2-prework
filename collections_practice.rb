@@ -38,7 +38,7 @@ def merge_data(keys, data)
   final_array = []
 
   data.each do |key, value|
-    puts value
+    puts key
     keys.each do |hash|
       # final_array << hash.merge!(hash1.values
 
