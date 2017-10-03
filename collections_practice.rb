@@ -19,7 +19,8 @@ def count_elements(array)
   new_h = {}
 
   array.each do |hash|
-    new_h.merge!({hash, :count => 0})
+    new_h.merge!(hash)
+    new_h.merge!({:count => 0})
   end
 
     new_h
