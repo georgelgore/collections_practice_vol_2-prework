@@ -18,7 +18,7 @@ end
 def count_elements(array)
   count = []
   new_h = Hash.new(0)
-  final_h = {}
+  final = []
 
   array.map{|hash| count << hash.values}
 
@@ -27,10 +27,10 @@ def count_elements(array)
   end
 
   new_h.each do |name, count|
-    final_h[:name] = name.first
-    final_h[:count] = count
+    final << {:name => name.first, :count => count}
+    
   end
-  final_h
+  final
 end
 
   # new_h = {}
