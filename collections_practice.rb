@@ -46,7 +46,7 @@ def merge_data(keys, data)
   keys.each_with_index do |hash, i|
     final_array[i].merge!(hash)
   end
-  
+
   final_array
   end
     # puts key
