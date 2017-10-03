@@ -16,7 +16,9 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  array.map{|hash| hash.map(&keys)}
+  count = []
+  array.map{|hash| count << hash.keys}
+  count
 end
 
   # new_h = {}
