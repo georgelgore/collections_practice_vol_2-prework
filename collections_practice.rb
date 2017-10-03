@@ -16,7 +16,6 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  count = []
   new_h = Hash.new(0)
   final = []
 
@@ -30,30 +29,6 @@ def count_elements(array)
     final << {:name => name, :count => value}
   end
   final
-  # array.map{|hash| count << hash.values}
-  #
-  # count.each do |name|
-  #   new_h[name] += 1
-  # end
-  #
-  # new_h.each do |name, count|
-  #   final << {:name => name.first, :count => count}
-  # end
-  #
-  # final
+  
 end
 
-  # new_h = {}
-  # array = []
-  # array.each do |hash|
-  #   new_h.merge(hash)
-  #   new_h.merge({:count => 0})
-  # end
-  #
-  #   new_h
-
-
-
-# new_h[:name] = hash.values.first
-# new_h[:count] += 1
-# += 1 if hash.values.first == new_h[:name]
