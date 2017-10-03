@@ -25,7 +25,7 @@ end
   #   new_h.merge(hash)
   #   new_h.merge({:count => 0})
   # end
-  # 
+  #
   #   new_h
 
 
