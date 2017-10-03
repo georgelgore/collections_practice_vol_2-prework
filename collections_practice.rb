@@ -22,7 +22,7 @@ def count_elements(array)
 
   array.each do |hash|
     hash.each do |key, value|
-      new_h[key] += 1
+      new_h[value] += 1
     end
   end
 
