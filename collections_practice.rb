@@ -39,11 +39,14 @@ def merge_data(keys, data)
 
   data.each do |hash|
     hash.each do |key, value|
-      # keys.each do |hash|
         final_array << value
-      # end
     end
   end
+
+  keys.each_with_index do |hash, i|
+    final_array[i].merge!(hash)
+  end
+  
   final_array
   end
     # puts key
