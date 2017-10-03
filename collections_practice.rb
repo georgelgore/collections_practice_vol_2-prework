@@ -26,7 +26,10 @@ def count_elements(array)
     end
   end
 
-  new_h
+  new_h.each do |name, value|
+    final << {:name => name, :count => value}
+  end
+  final
   # array.map{|hash| count << hash.values}
   #
   # count.each do |name|
