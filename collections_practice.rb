@@ -34,5 +34,5 @@ end
 
 
 def merge_data(keys, data)
-  data.merge(keys)
+  keys.merge(data)
 end
