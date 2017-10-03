@@ -29,6 +29,5 @@ def count_elements(array)
     final << {:name => name, :count => value}
   end
   final
-  
-end
 
+end
