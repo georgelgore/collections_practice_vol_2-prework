@@ -28,7 +28,7 @@ def count_elements(array)
 
   new_h.each do |name, count|
     final << {:name => name.first, :count => count}
-    
+
   end
   final
 end
