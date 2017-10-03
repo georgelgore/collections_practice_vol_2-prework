@@ -28,15 +28,15 @@ def count_elements(array)
 
   new_h
   # array.map{|hash| count << hash.values}
-  # 
+  #
   # count.each do |name|
   #   new_h[name] += 1
   # end
-  # 
+  #
   # new_h.each do |name, count|
   #   final << {:name => name.first, :count => count}
   # end
-  # 
+  #
   # final
 end
 
