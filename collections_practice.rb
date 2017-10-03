@@ -41,7 +41,8 @@ def merge_data(keys, data)
     keys.each do |hash|
       # final_array << hash.merge!(data_hash)# final_array << {hash, data_hash}
       if hash.keys == hash1.keys
-      puts hash.merge!(hash1.keys)
+        puts hash.merge!(hash1.keys)
+      end
     end
   end
   final_array
