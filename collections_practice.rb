@@ -44,7 +44,7 @@ def merge_data(keys, data)
       end
     end
   end
-  # final_array
+  final_array
   end
     # puts key
     # keys.each do |hash|
