@@ -49,6 +49,7 @@ def merge_data(keys, data)
 
   final_array
   end
-    # puts key
-    # keys.each do |hash|
-    #   # final_array << hash.merge!(hash1.values
+
+def find_cool
+
+end
