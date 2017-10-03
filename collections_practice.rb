@@ -39,7 +39,9 @@ def merge_data(keys, data)
 
   data.each do |hash|
     hash.each do |key, value|
-      puts value
+      keys.each do |hash|
+        final_array << hash.merge!(value)
+      end
     end
   end
   # final_array
