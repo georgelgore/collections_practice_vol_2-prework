@@ -19,7 +19,7 @@ def count_elements(array)
   count = []
   new_h = Hash.new(0)
   final_h = {}
-  
+
   array.map{|hash| count << hash.values}
 
   count.each do |name|
@@ -30,6 +30,7 @@ def count_elements(array)
     final_h[:name] = name.first
     final_h[:count] = count
   end
+  final_h
 end
 
   # new_h = {}
