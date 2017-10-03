@@ -17,7 +17,7 @@ end
 
 def count_elements(array)
   count = []
-  array.map{|hash| count << hash.keys}
+  array.map{|hash| count << hash.values}
   count
 end
 
