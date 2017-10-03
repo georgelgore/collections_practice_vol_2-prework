@@ -17,8 +17,12 @@ end
 
 def count_elements(array)
   count = []
+  new_h = Hash.new(0)
   array.map{|hash| count << hash.values}
-  count
+  count.each do |name|
+    new_h[name] += 1
+  end
+  new_h
 end
 
   # new_h = {}
